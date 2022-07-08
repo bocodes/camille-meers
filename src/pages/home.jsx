@@ -14,7 +14,7 @@ function Home() {
             <img src='images/logos/logo-dark.png' height={"200px"} />
             <Navbar />
             <div id='iframe-container'>
-                <iframe className='Project-Gallery-New' frameborder='0' id='pictimeIntegration' src='https://shotsbycamille.pic-time.com/client?headless=true'></iframe>
+                <iframe frameborder='0' src='https://shotsbycamille.pic-time.com/client?headless=true'></iframe>
             </div>
 
             {/* <Footer /> */}
