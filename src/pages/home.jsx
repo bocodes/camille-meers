@@ -11,8 +11,10 @@ function Home() {
 
     return (
         <div className="App">
-            <img src='images/logos/logo-dark.png' height={"200px"} />
-            <Navbar />
+            <br />
+            <br />
+            <img src='images/logos/logo-dark.png' height={"150px"} />
+            {/* <Navbar /> */}
             <div id='iframe-container'>
                 <iframe frameborder='0' src='https://shotsbycamille.pic-time.com/client?headless=true'></iframe>
             </div>
